@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="chrome test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="RegistrationForm.MavenEcomrs.TC001_CustomerRegistration">
+        <methods>
+          <include name="startProcess"/>
+          <include name="endProcess"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- RegistrationForm.MavenEcomrs.TC001_CustomerRegistration -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
